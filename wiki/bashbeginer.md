@@ -137,8 +137,8 @@ We first create a directory named crystal, then move the file  ```simple.in``` t
 
 ####Command
 
-     ::bash
-     rm
+    ::bash
+    rm
 
 Example usage:
 
