@@ -61,10 +61,10 @@ The ```cat``` command is used to show the contents of a text file. Example
 This shows that the ```bands.in``` has 4 lines of text in it. The cat command can show line numbers if they are needed:
 
     ::bash
-     1	&bands
-     2	    filband = 'bands.dat',
-     3	    prefix = 'BN'
-     4	/ 
+    &bands
+      filband = 'bands.dat',
+        prefix = 'BN'
+    / 
 
 
 ####Command
@@ -75,4 +75,19 @@ This shows that the ```bands.in``` has 4 lines of text in it. The cat command ca
 This clears the screen.
 
 
+####Command
 
+    ::bash
+    rm -r
+
+This command removes a directory
+
+
+##Vi basic commands
+
+####How to create a file named ```new```
+
+    ::bash
+    vi new
+
+Then press ```i``` to be in ```INSERT MODE``` in order to start typing
