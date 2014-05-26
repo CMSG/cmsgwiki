@@ -92,8 +92,14 @@ This command removes a directory
 
 Then press ```i``` to be in ```INSERT MODE``` in order to start typing.
 
-After typing you will have to save. Press ``` Esc``` and type ```:```. Type :
+After typing you will have to save. Press ``` Esc``` and type
+
+
+     :
+
+Type this 
 	
+
 	::bash
  	wq  or  x
 
