@@ -90,4 +90,29 @@ This command removes a directory
     ::bash
     vi new
 
-Then press ```i``` to be in ```INSERT MODE``` in order to start typing
+Then press ```i``` to be in ```INSERT MODE``` in order to start typing.
+
+After typing you will have to save. Press ``` Esc``` and type ```:```. Type :
+	
+	::bash
+ 	wq  or  x
+
+to save the changes and quit, or,
+	
+	::bash
+	q! 
+
+to quit without saving (if there is same changes done), or,
+
+	::bash
+	q
+
+to quit without saving (if there no changes done).
+
+To view the exiting file, type ```vi``` followed by the file name, and press ```Enter``` example
+
+	::bash
+	vi new
+
+
+
